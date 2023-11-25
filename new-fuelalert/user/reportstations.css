@@ -1,0 +1,71 @@
+:root{
+  --primary-color: #04364a;
+  --secondary-color: #176b87;
+  --off-color: #64ccc5;
+  --accent-color: #dafffb;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: var(--primary-color);
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 16px;
+}
+#reportstations-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputs h1{
+  padding: 20px;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: l;
+  align-items: center;
+  height: 60px;
+  background-color:  var(--accent-color);
+}
+header img {
+  height: 90px;
+}
+
+.inputs button{
+  background-color: #007bff;
+  color: white;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+
+}
+ .inputs button:hover {
+  background-color: #0056b3;
+}
+
+footer{
+  padding: 20px;
+}

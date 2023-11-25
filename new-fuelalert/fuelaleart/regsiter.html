@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regsiter</title>
+    <!------------------ Google Fonts----------------- -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Dancing+Script&family=Jost&family=Kalam&family=Kanit&family=Noto+Sans+Display:wght@600&family=PT+Sans+Narrow&family=Slabo+27px&family=Ubuntu:wght@500&display=swap');
+    </style>
+    <!------------------ Custom CSS Link----------------- -->
+    <link rel="stylesheet" href="css/regsiter.css">
+
+</head>
+
+<body>
+    <section id="main2" class="FormBack">
+        <!----------------- Container for the Login Form Page ------------------>
+        <form action="mailto:miraclechibuike27@gmail.com" method="get" autocomplete="on">
+            <div class="loginForm">
+                <h2 class="headre">Create an Account</h2>
+                <!----------------- User Name Input Container ----------------->
+                <div class="userName">
+                    <label for="userName"></label>
+                    <input type="text" id="userName" placeholder="Enter Your Name" autocomplete="new-password">
+                </div>
+                <!----------------- User Email Input Container ----------------->
+                <div class="emailHolder">
+                    <label for="userEmail"></label>
+                    <input type="email" id="userEmail" class="email" placeholder="Enter Your Email"
+                        autocomplete="new-password">
+                </div>
+                <!----------------- User Password Input Container ------------------>
+                <div class="passwordHolder">
+                    <label for="userPassword"></label>
+                    <input type="password" id="userPassword" placeholder="Create a Password"
+                        autocomplete="new-password">
+                    <p class="showPassword">
+                        <input type="checkbox" name="" id="passwordVisible">
+                        <span class="passwordText"> Show Password</span>
+                    </p>
+
+                </div>
+                <div class="btn">
+                    <button type="submit" class="submitBtn">
+                        Regsiter <i class="fa-solid fa-circle-arrow-right"></i>
+                    </button>
+                    <p class="remember"><input type="checkbox" name="" id="Checkbox"> Remember Me</p>
+
+                </div>
+            </div>
+        </form>
+        <!----------------- To Redidrect To the Register Page ------------------>
+        <div class="registerContainer">
+            <button class="registerUser">
+                <a href="index.html">I've An Account</a>
+            </button>
+            <p class="forgotPassword">
+                <a href="">Forgot Password?</a>
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <!-- Font Awesome Link-->
+    <script src="https://kit.fontawesome.com/9b5c4c6b23.js" crossorigin="anonymous"></script>
+    <!-- Custome JS -->
+    <script src="js/register.js"></script>
+</body>
+
+</html>

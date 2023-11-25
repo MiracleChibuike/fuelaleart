@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!------------------ Google Fonts----------------- -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Dancing+Script&family=Jost&family=Kalam&family=Kanit&family=Noto+Sans+Display:wght@600&family=PT+Sans+Narrow&family=Slabo+27px&family=Ubuntu:wght@500&display=swap');
+    </style>
+    <!----------------- Custom CSS Link ---------------- -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Place the header of the page here -->
+    <!----------------- Main Container ------------------>
+    <section id="main">
+    <!----------------- Container for the Login Form Page ------------------>
+     <form action="mailto:miraclechibuike27@gmail.com" method="get" autocomplete="on">
+        <div class="loginForm">
+            <h2 class="headre">Welcome back </h2>
+            <!----------------- User Email Input Container ----------------->
+            <div class="emailHolder">
+                <label for="userEmail"></label>
+                <input type="email" id="userEmail" placeholder="Your Email ID" required autocomplete="email">
+            </div>
+            <!----------------- User Password Input Container ------------------>
+            <div class="passwordHolder">
+                <label for="userPassword"></label>
+                <input type="password" id="userPassword" placeholder="Your Password ID" required autocomplete="current-password">
+                <p class="showPassword">
+                    <input type="checkbox" name="" id="passwordVisible">
+                    <span class="passwordText"> Show Password</span>
+                </p>
+
+            </div>
+           <div class="btn">
+            <button type="submit" class="submitBtn">
+                LogIn <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+            <p class="remember"><input type="checkbox" name="" id="Checkbox"> Remember Me</p>
+
+           </div>
+        </div>
+     </form>
+                <!----------------- To Redidrect To the Register Page ------------------>
+        <div class="registerContainer">
+            <button class="registerUser">
+                <a href="regsiter.html">I'm New Here</a>
+            </button>
+            <p class="forgotPassword">
+                <a href="">Forgot Password?</a>
+            </p>
+        </div>
+
+    </section>
+
+    <!-- ------- This is for the Register Page ------------------>
+
+  
+    <!-- Place the footer of the page here -->
+
+        <script src="https://kit.fontawesome.com/9b5c4c6b23.js" crossorigin="anonymous"></script>
+
+
+    <!---------- Custom JS -------------->
+    <script src="js/index.js"></script>
+</body>
+</html>

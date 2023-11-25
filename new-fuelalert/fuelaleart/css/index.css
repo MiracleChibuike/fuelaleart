@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------- My Root Color Selectors ------------ */
+:root {
+  --primary-White: #fff;
+  --primary-Gray: rgba(163, 163, 195);
+  --blue-main: rgba(0, 0, 100);
+  --orange-regular: #ffa500;
+  --Secondary-orange: #d39624;
+  --gray-color: rgb(206, 206, 202);
+  --dark-Main: #000;
+  --dark-Secondary: rgb(24, 24, 23);
+}
+
+body {
+  /* background: linear-gradient(rgba(47, 47, 140, 0.8), rgba(17, 17, 88, 0.8)),
+    url(../images/fuelpumpCar.jpg) no-repeat center center/cover; */
+  background: url(../images/fuelpumpCar.jpg) no-repeat center center/cover;
+  font-family: "Jost", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  opacity: 0.9;
+}
+
+/* For the main Container */
+#main {
+  padding: 10px;
+  color: var(--dark-Main);
+  background: var(--gray-color);
+  border-radius: 8px;
+  padding: 0 20px;
+  /* content-visibility: visible; */
+}
+
+.headre {
+  text-align: center;
+  margin: 10px;
+  font-size: 2.1rem;
+}
+
+.emailHolder,
+.passwordHolder {
+  margin: 17px 0;
+}
+
+#userEmail,
+#userPassword {
+  width: 300px;
+  height: 50px;
+  margin: 15px;
+  border: 3px solid var(--primary-Gray);
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  color: var(--dark-Main);
+  font-family: "Jost", sans-serif;
+}
+
+#userEmail:hover,
+#userPassword:hover {
+  border: 2px solid var(--primary-White);
+  cursor: pointer;
+  transform: scale(1, 1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+::placeholder {
+  color: var(--dark-Main);
+  padding: 5px;
+  font-size: 14px;
+}
+
+.btn {
+  margin: 30px 0;
+}
+
+.submitBtn {
+  width: 300px;
+  height: 45px;
+  background: transparent;
+  border: 3px solid var(--primary-Gray);
+  margin: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  border-radius: 10px;
+  color: var(--dark-Main);
+}
+
+.submitBtn:hover {
+  background: var(--orange-regular);
+  border: 3px solid var(--orange-regular);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: translateY(10px);
+}
+
+.submitBtn i {
+  font-size: 1.5rem;
+  position: relative;
+  left: 10px;
+  top: 3px;
+}
+
+.remember,
+.showPassword {
+  margin: 0 18px;
+}
+
+.registerUser {
+  width: 300px;
+  height: 45px;
+  background: var(--orange-regular);
+  border: none;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Jost", sans-serif;
+  border-radius: 10px;
+  color: var(--primary-White);
+}
+
+.registerUser:hover {
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+  border: 3px solid var(--primary-Gray);
+}
+
+.registerUser a {
+  color: var(--dark-Main);
+  ;
+  text-decoration: none;
+}
+
+.registerUser a:hover {}
+
+.forgotPassword {
+  color: var(--primary-White);
+  text-align: center;
+  margin: 25px 0;
+}
+
+.forgotPassword a {
+  color: var(--dark-Main);
+  text-decoration: none;
+}
+
+.forgotPassword a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}

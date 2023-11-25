@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FuelAlert</title>
+    <link rel="icon" type="image/x-icon" href="favicon-fa.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo-container">
+        <div id="logo-box">
+          <a href="index.html">
+            <img src="assets/logo.png" width="100%" height="100%" alt="" />
+          </a>
+        </div>
+        <h1>FUEL ALERT8</h1>
+      </div>
+      <nav>
+        <ul id="">
+          <li id=""><a href="#" class="active">Home</a></li>
+          <li id="filling-stations"><a href="#">Blog</a></li>
+          <li id="error-reports"><a href="#">Contact Us</a></li>
+          <li id="statistics"><a href="#">Statistics</a></li>
+          <li id="admins"><a href="#">About Us</a></li>
+          <li id="blog"><a href="fuelaleart/regsiter.html">Register</a></li>
+          <li id="blog"><a href="fuelaleart/index.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="write-up">
+      <h1>Welcome to Fuel Alert</h1>
+      <p>
+        We provide you with the latest fuel prices of all the Filling Stations
+        around you
+      </p>
+    </div>
+    <div class="select-box">
+      <select>
+        <option value="">State</option>
+        <option value="">Imo</option>
+        <option value="">Aba</option>
+        <option value="">Anambra</option>
+      </select>
+      <select>
+        <option value="">Area</option>
+        <option value="">Orji</option>
+        <option value="">Control</option>
+        <option value="">World Bank</option>
+      </select>
+      <select>
+        <option value="">Today</option>
+        <option value="">Yesterday</option>
+        <option value="">23/Nov/2023</option>
+        <option value="">18/Aug/2023</option>
+      </select>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td>Names of Filling Station</td>
+          <td>Address</td>
+          <td>Area</td>
+          <td>State</td>
+          <td>Price</td>
+        </tr>
+      </thead>
+      <tbody id="table-container"></tbody>
+    </table>
+    <footer>
+      <p>&copy; Fuel Alert 2023</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
